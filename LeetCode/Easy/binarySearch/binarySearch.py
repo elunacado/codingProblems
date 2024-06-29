@@ -23,7 +23,9 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
+        #set the index for the beginning and the tail
         head = 0
         tail = len(nums) - 1
+        #the result is the call of the function of binary search
         result = self.binarySearch(nums, head, tail, target)
         return result
